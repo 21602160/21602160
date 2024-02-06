@@ -10,9 +10,9 @@
 21602160/21602160 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-# Date: 6/2/2024
+# Date: 6/6/2020
 # Author: usman bin osama
-# Description: Instagram hacker #100k rank around the world
+# Description: Instagram hacker #100k rank around the world (FBI)
 
 # from lib.proxy import Proxy
 import os
