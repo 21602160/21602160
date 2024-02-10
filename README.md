@@ -10,7 +10,8 @@ You can click the Preview link to take a look at your changes.
 --->
 # Date: 1/1/2024
 # Author: usman bin osama
-# Description: online shopping 
+# Description: online shopping (amazon)
+
 
 #amazon
 import os
