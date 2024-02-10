@@ -1,20 +1,18 @@
-- 👋 Hi, I’m @21602160
-- 👀 I’m interested in hacking
-- 🌱 I’m currently learning hacking
+- 👋 Hi, I’m ALI
+- 👀 I’m interested in MAKET
+- 🌱 I’m currently learning maket
 - 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me through out this app
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+- 📫 How to reach me :through out this app
 
 <!---
 21602160/21602160 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-# Date: 6/6/2020
+# Date: 1/1/2024
 # Author: usman bin osama
-# Description: Instagram hacker #100k rank around the world (FBI)
+# Description: online shopping 
 
-# from lib.proxy import Proxy
+#amazon
 import os
 import time
 from sys import exit
