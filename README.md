@@ -1,7 +1,6 @@
 - 👋 Hi, I’m ALI
 - 👀 I’m interested in MAKET
-- 🌱 I’m currently learning maket
-- 💞️ I’m looking to collaborate on ...
+- 🌱 I’m currently learning maketing
 - 📫 How to reach me :through out this app
 
 <!---
