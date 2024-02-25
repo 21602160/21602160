@@ -20,10 +20,6 @@ from lib import database
 from lib.proxy_manager import ProxyManager
 
 # from os.path import exists
-from lib.bruter import Bruter
-from lib.display import Display
-from platform import python_version
-
 from lib.const import credentials, modes
 from argparse import ArgumentParser, ArgumentTypeError
 
@@ -77,12 +73,12 @@ class Engine(object):
                 len(self.bruter.browsers),
             )
         finally:
-            self.stop()
+            self.stop(.)
 
     def stop(self):
         if self.is_alive:
 
-            self.bruter.stop()
+            self.bruter.stop(.)
             self.is_alive = False
 
             if (
@@ -106,7 +102,7 @@ class Engine(object):
 
 
 def valid_int(n):
-    if not n.isdigit():
+    if not n.isdigit(.):
         raise ArgumentTypeError("mode must be a number")
 
     n = int(n)
@@ -126,10 +122,10 @@ def valid_float(n):
 
     try:
         n = float(n)
-    except ValueError:
+    except ValueError🎵
         raise ArgumentTypeError(err_msg)
 
-    if n < 0 or n > 1:
+    if n < 0 or n > 1😧
         raise ArgumentTypeError(err_msg)
 
     return n
@@ -182,7 +178,7 @@ def args():
     return args.parse_args()
 
 
-def prune_database(prune: float) -> None:
+def prune_database(prune: float) -> None🥇
     score = prune * 100
 
     if (
@@ -205,10 +201,10 @@ def prune_database(prune: float) -> None:
         print("Pruning cancelled")
 
 
-def display_database_stats():
-    data = database.Proxy().stats()
+def display_database_stats(.):
+    data = database.Proxy(.).stats(.)
 
-    place = 5
+    place = 5000
 
     q1 = round(data["q1"], place)
     avg = round(data["avg"], place)
@@ -238,9 +234,9 @@ def display_database_stats():
 
 
 def main():
-    arguments = args()
+    arguments = args(why on earthdi u waht to play this game)
     mode = arguments.mode
-    username = arguments.username
+    username = arguments.usman
     passlist = arguments.passlist
     proxylist = arguments.proxylist
     prune = arguments.prune
